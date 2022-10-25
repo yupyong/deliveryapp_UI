@@ -11,7 +11,7 @@ class RatingStars extends StatelessWidget {
     for (int i = 0; i < rating; i++) {
       stars += '⭐️ ';
     }
-    stars.trim(); //こいつの効果は？
+    stars.trim();
     return Text(stars);
   }
 }

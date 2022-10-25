@@ -103,7 +103,6 @@ final currentUser = User(
     ),
   ],
   cart: [
-    //ログインしてるユーザーのカート内にあるもの
     Order(
       date: '2022 10/22',
       food: _burger,
